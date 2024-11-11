@@ -1,0 +1,83 @@
+body {
+  width: 1333px;
+  height:581px;
+  top: 36px;
+  left: 12px;
+  gap: 0px;
+  border-radius: 3px 0px 0px 0px;
+  opacity: 0px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  width: 1328px;
+  height: 604px;
+  top: 36px;
+  left: 12px;
+  gap: 0px;
+  border-radius: 3px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #3B3B3B;
+  padding:10px;
+}
+
+.frame{
+  background-color: #9B9B9B;
+  width: 1325px;
+  height: 292px;
+  top: 94px;
+  left: 32px;
+  gap: 0px;
+  border-radius: 5px;
+  opacity: 0px;
+  /* margin-bottom: 5px; */
+}
+
+.expFont{
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.77px;
+  text-align: left;
+  
+  color: #FFFFFF;
+  padding-bottom:5px;
+}
+
+.recFont{
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32.17px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.frame2{
+  display: flex;
+  flex-direction: row;
+}
+
+.topExp{
+  width: 275px;
+  height: 32px;
+  top: 399px;
+  left: 800px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.recExp{
+  width: 861px;
+  height: 32px;
+  top: 399px;
+  left: 32px;
+  gap: 0px;
+  opacity: 0px;
+}
+
