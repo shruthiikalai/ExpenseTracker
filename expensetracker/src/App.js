@@ -1,14 +1,13 @@
-//import logo from './logo.svg';
-import './index.css';
-import Container from './Container';
+import Main from './pages/Main/Main'
+import { SnackbarProvider } from 'notistack';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Container />
-      </header>
-    </div>
+    <SnackbarProvider >
+      <div>
+        <Main />
+      </div>
+    </SnackbarProvider>
   );
 }
 
